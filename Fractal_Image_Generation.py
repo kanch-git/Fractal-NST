@@ -5,8 +5,8 @@ import os
 IMG_SIZE = 256
 NUM_IMAGES = 100
 
-mandelbrot_dir = "mandelbrot_images"
-julia_dir = "julia_images"   # ✅ FIXED
+mandelbrot_dir = "style_images"
+julia_dir = "style_images"
 
 os.makedirs(mandelbrot_dir, exist_ok=True)
 os.makedirs(julia_dir, exist_ok=True)
@@ -48,7 +48,7 @@ for i in range(NUM_IMAGES):
         cmap=np.random.choice(["inferno", "plasma", "magma", "viridis"])
     )
 
-print("✅ 100 diverse Mandelbrot images generated.")
+print("100 diverse Mandelbrot images generated.")
 
 # Julia Generator
 def generate_julia(c, xmin, xmax, ymin, ymax, img_size, max_iter):
@@ -84,3 +84,4 @@ for i in range(NUM_IMAGES):
     )
 
 print("100 Julia images generated.")
+
