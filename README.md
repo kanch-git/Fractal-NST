@@ -29,6 +29,7 @@ This script performs neural style transfer-based image augmentation.
 ## Folder Structure
 
 Fractal-NST/
+
 ├── Fractal_Image_Generation.py  
 ├── nst.py  
 ├── style_images/  
