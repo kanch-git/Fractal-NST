@@ -94,3 +94,9 @@ Please cite the corresponding research article and dataset if you use this code.
 ## License
 
 This repository is intended for academic and research use only.
+
+---
+
+## Dataset
+
+Sample generated dataset by the code: https://doi.org/10.5281/zenodo.18073715
