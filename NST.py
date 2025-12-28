@@ -16,9 +16,9 @@ EPOCHS = 100
 CONTENT_WEIGHT = 1e4
 STYLE_WEIGHT = 1e2
 
-content_dir = "content"
-style_dir = "style"
-output_dir = "nst_output"
+content_dir = "content_images"
+style_dir = "style_images"
+output_dir = "augmented_image"
 os.makedirs(output_dir, exist_ok=True)
 
 # Image Loader
@@ -108,3 +108,4 @@ output_path = os.path.join(output_dir, "nst_result.png")
 transforms.ToPILImage()(target.squeeze().clamp(0, 1).cpu()).save(output_path)
 
 print("NST completed successfully.")
+
