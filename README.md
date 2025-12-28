@@ -31,11 +31,8 @@ This script performs neural style transfer-based image augmentation.
 Fractal-NST/
 ├── Fractal_Image_Generation.py  
 ├── nst.py  
-├── fractal_images/  
-│   ├── mandelbrot/  
-│   └── julia/  
+├── style_images/  
 ├── content_images/  
-│   └── PlantVillage/  
 ├── augmented_image/  
 └── README.md  
 
@@ -63,7 +60,7 @@ pip install torch torchvision numpy opencv-python matplotlib pillow
 
 python Fractal_Image_Generation.py
 
-The generated fractal images will be saved in the fractal_images directory.
+The generated fractal images will be saved in the style_images directory.
 
 ### Step 2: Perform Image Augmentation Using Fractal-NST
 
